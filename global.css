@@ -16,11 +16,47 @@ body {
 header {
   background-color: #2D4A48;
   padding: 10px;
+  height: 60px;
 }
 
-#main_image {
-  background-color: #536563;
+header img {
+  height: 45px;
 }
+
+
+
+
+.main_area {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 495px;
+}
+
+
+.mountains {
+  position: absolute;
+  background-image: url("./assets/mountains.jpg");
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 495px;
+}
+
+#hero {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 495px;
+}
+
+
+
+
 
 .sponsor_area {
   padding: 10px;
@@ -36,9 +72,24 @@ header {
   background-color: #536563;
 }
 
-#register {
-  background-color: white;
-  margin-top: 40px;
+#register_area {
+  position: relative;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+#register_bg {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bird {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text {
@@ -94,7 +145,7 @@ header {
 }
 
 .event_schedule{
-  background-image: url("./assets/part3/wood-bg.png");
+  background-image: url("./assets/board.jpg");
 }
 
 .event_schedule img {
@@ -228,7 +279,7 @@ header {
 
 .faq li {
   text-align: left;
-  background: url(./assets/part4/plus-bullet.png) left top no-repeat; 
+  background: url(./assets/plus.png) left top no-repeat; 
   padding-left: 35px;
   padding-bottom: 25px;
 }
