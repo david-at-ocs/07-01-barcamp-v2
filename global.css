@@ -71,6 +71,19 @@ header img {
   z-index: 10;
 }
 
+.trees {
+  position: absolute;
+  top: -5px;
+  background-image: url("./assets/trees.png");
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 570px;
+  z-index: 20;
+}
+
 
 
 
