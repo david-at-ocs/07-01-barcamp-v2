@@ -121,22 +121,23 @@ header img {
   background-color: #536563;
 }
 
-#registration_area {
+.registration_area {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-  height: 200px;
+  border: 1px solid black;
+  height: 300px;
 }
 
-#register_lines {
+.register_lines {
   position: absolute;
   background-image: url("./assets/buttonLines.png");
-  background-repeat: none;
-  background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  z-index: 80;
+  border: 1px solid black;
 }
 
 #register_bg {
@@ -146,9 +147,7 @@ header img {
   margin-right: auto;
 }
 
-#bird {
-  position: absolute;
-  display: block;
+.bird {
   margin-left: auto;
   margin-right: auto;
 }
