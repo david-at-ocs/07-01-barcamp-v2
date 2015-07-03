@@ -186,7 +186,7 @@ header img {
 
 .dotted_divider {
   margin-top: 40px;
-  background-image: url("./assets/part2/dash-horizontal.png");
+  background-image: url("./assets/dash-horizontal.png");
   background-repeat: repeat-x;
 }
 
@@ -358,8 +358,9 @@ header img {
 
 .faq li {
   text-align: left;
-  background: url(./assets/plus.png) left top no-repeat; 
-  padding-left: 35px;
+  background: url(./assets/plus.png) left top no-repeat;
+  background-size: 25px 25px;
+  padding-left: 45px;
   padding-bottom: 25px;
 }
 
