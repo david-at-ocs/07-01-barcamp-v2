@@ -342,7 +342,7 @@ header img {
   background-color: #CAECF7;
 }
 
-.faq img {
+.faq_the_letters {
   position: relative;
   top: 4px;
   margin-top: 20px;
@@ -354,6 +354,8 @@ header img {
   color: #8C5A30;
   list-style: none;
   margin-bottom: 0px;
+  padding: 0px;
+  padding-left: 10px;
 }
 
 .faq li {
@@ -362,6 +364,18 @@ header img {
   background-size: 25px 25px;
   padding-left: 45px;
   padding-bottom: 25px;
+}
+
+.no_padding_bottom {
+  padding-bottom: 0px;
+  margin-bottom: -30px;
+}
+
+.tower {
+  position: relative;
+  bottom: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 
