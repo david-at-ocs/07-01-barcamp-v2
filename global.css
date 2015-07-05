@@ -379,6 +379,52 @@ header img {
 }
 
 
+.reg_area {
+  position: relative;
+  top: -5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1700px;
+  overflow: hidden;
+}
+
+.reg_lake {
+  position: absolute;
+  background-image: url("./assets/footer.png");
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 1700px;
+}
+
+
+
+.hills {
+  position: absolute;
+  bottom: 0;
+  background-image: url("./assets/hillFront.png");
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 325px;
+  z-index: 50;
+}
+
+.signpost {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+
+
 
 
 
